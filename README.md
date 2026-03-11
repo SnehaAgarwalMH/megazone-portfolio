@@ -1,85 +1,185 @@
-# ☁️ Megazone QA Portfolio
+# ☁️ Megazone QA Engineering Portfolio
 
-Summary of professional **QA engineering, backend automation, and framework development** projects at **Megazone Cloud (2024 – Present)**.  
+Engineering portfolio documenting **automation frameworks, backend QA systems, and platform testing architecture** developed at **Megazone Cloud (2024 – Present)**.
 
-⚠️ Source code is private due to company confidentiality.
-This repository documents architecture, tools, and engineering contributions.
-This README highlights technical scope and system design contributions.
-
----
-
-## 🔹 Project Highlights
-
-### 1️⃣ QA Admin Portal (Full-Stack)
-- Developed a **React + Spring Boot** admin dashboard for monitoring Playwright test results and user analytics.
-- Frontend: React (TypeScript, MUI, Axios, Recharts)
-- Backend: Java (Spring Boot, JPA/Hibernate, MySQL)
-- Features: Auth, dashboard analytics, Playwright result tracking, and API documentation via Swagger.
-- Repository: `qa-admin-portal` (Private)
+⚠️ Source code is private due to company confidentiality and internal platform policies.  
+This repository documents **architecture, tools, and engineering contributions** without exposing proprietary implementation.
 
 ---
 
-### 2️⃣ HostingKR QA Automation
-- Automated daily regression for **HostingKR** platform using **Java + Selenium**.
-- Features:
-  - Auto-renewal verification  
-  - Email notification monitoring  
-  - Data comparison between frontend, API, and backend  
-  - Detailed HTML and Slack-integrated reports
-- Repository: `hostingkr-qa-automation` (Private)
+# 🔹 Project Highlights
+
+## 1️⃣ QA Admin Portal — Full-Stack Monitoring Platform
+Developed an internal **QA monitoring and analytics platform** used for tracking automation results and system metrics.
+
+**Tech Stack**
+
+Frontend  
+- React (TypeScript)  
+- Material UI  
+- Axios  
+- Recharts  
+
+Backend  
+- Java  
+- Spring Boot  
+- JPA / Hibernate  
+- MySQL  
+
+**Key Features**
+
+- Authentication system for internal QA users  
+- Test execution monitoring dashboard  
+- Playwright test result tracking  
+- Analytics charts and reporting  
+- REST API documentation using Swagger  
+
+Repository: `MEGAZONE-qa-admin-portal` *(Private)*
 
 ---
 
-### 3️⃣ Playwright MCP Suite (Cursor)
-- Created **Python Playwright-based suite** for end-to-end testing of **PoPs platform**.
-- Test suites for multiple modules:
-  - Contract, Workspace, Application, Instance, App Catalog, Spend, Invoice, and Transaction.
-- Integrated with CI/CD pipelines, custom pytest dashboards, and result visualizations.
+## 2️⃣ HostingKR Automation Framework
+Developed **automated regression framework** for the HostingKR platform using **Java + Selenium**.
+
+**Key Capabilities**
+
+- Automated daily regression tests  
+- Auto-renewal verification flows  
+- Email notification validation  
+- Data verification across UI / API / backend systems  
+- HTML reporting with Slack integration  
+
+Repository: `MEGAZONE-hostingkr-qa-automation` *(Private)*
 
 ---
 
-### 4️⃣ Web Scraping Suite
-- Java + Selenium-based **data scraping and report generation** system.
-- Extracts live data from multiple platforms (e.g., Figma, Flex, Adobe), stores in Excel, and uploads to Drive.
-- Lambda expressions used for optimized and cleaner logic.
+## 3️⃣ Playwright MCP Automation Suite
+Designed a **Python Playwright-based automation framework** for testing the **PoPs cloud platform**.
+
+**Test Coverage**
+
+- Contract  
+- Workspace  
+- Application  
+- Instance  
+- App Catalog  
+- Spend  
+- Invoice  
+- Transaction  
+
+**Engineering Features**
+
+- Pytest based modular test architecture  
+- CI/CD pipeline integration  
+- Automated dashboards and reporting  
+- Scalable test module design  
+
+Repository: `MEGAZONE-cursor-playwright-mcp-suite` *(Private)*
 
 ---
 
-### 5️⃣ Java Framework Library
-- Custom **Java framework** providing reusable utilities and core functions.
-- Designed for both development and testing projects (config, logging, REST clients, data utils, etc.).
-- Evolving shared library for all automation and backend modules.
+## 4️⃣ Web Data Extraction & Reporting Suite
+Developed a **Java + Selenium automation system** for structured data extraction and reporting workflows.
+
+**Capabilities**
+
+- Extracts structured data from multiple platforms  
+  - Figma  
+  - Flex  
+  - Adobe  
+- Generates automated Excel reports  
+- Uploads data to Google Drive pipelines  
+- Optimized logic using Java Lambda expressions  
+
+Repository: `MEGAZONE-web-scraping-suite` *(Private)*
 
 ---
 
-### 6️⃣ SOAPUI API Regression
-- Comprehensive **SOAP and REST API regression test suite**.
-- Covers authentication, contract, and PoPs system APIs.
-- Automated validation integrated with Jenkins pipeline.
+## 5️⃣ Java Framework Library
+Developed a reusable **Java utility framework** supporting both development and automation projects.
+
+**Framework Modules**
+
+- Configuration management  
+- Logging utilities  
+- REST client helpers  
+- JSON / CSV data utilities  
+- Concurrency helpers  
+
+Used across multiple automation and backend testing systems.
+
+Repository: `MEGAZONE-framework-java` *(Private)*
 
 ---
 
-## 🧰 Core Skills
-- **Languages:** Java, TypeScript, Python, SQL  
-- **Frameworks:** Spring Boot, React, Playwright, Selenium  
-- **Tools:** Postman, SoapUI, Jenkins, Bamboo, GitHub Actions  
-- **Databases:** Oracle, MySQL  
-- **CI/CD:** GitHub Actions, Jenkins  
-- **Cloud:** AWS, GCP  
-- **Reporting:** Allure, Pytest HTML, Slack integration  
+## 6️⃣ SOAP / REST API Regression Suite
+Created automated **API regression test system** using **SoapUI and Groovy scripts**.
+
+**Coverage**
+
+- Authentication APIs  
+- Contract APIs  
+- PoPs system APIs  
+
+Integrated with Jenkins pipelines for automated validation and reporting.
+
+Repository: `MEGAZONE-soapui-api-regression` *(Private)*
 
 ---
 
-## 📊 Key Achievements
-✅ Unified full-stack QA portal (React + Spring Boot)  
-✅ Designed custom test automation framework  
-✅ Automated daily regression and backend data verification  
-✅ Delivered multiple stable releases for PoPs and HostingKR  
+# 🔧 Engineering Focus
+
+- Automation framework architecture  
+- Backend API validation and integration testing  
+- Full-stack QA tooling development  
+- CI/CD automation pipelines  
+- Cross-platform testing (UI / API / Database)  
+- Platform-level system validation
 
 ---
 
-## 👩‍💻 Author
-Developed & maintained by **Sneha Agarwal**  
-QA Engineer – Megazone Cloud (PoPs Team)  
+# 🧰 Core Skills
+
+**Languages**  
+Java • Python • TypeScript • SQL  
+
+**Frameworks**  
+Spring Boot • React • Selenium • Playwright  
+
+**Tools**  
+Postman • SoapUI • Jenkins • Bamboo • GitHub Actions  
+
+**Databases**  
+Oracle • MySQL • PostgreSQL  
+
+**Cloud Platforms**  
+AWS • GCP  
+
+**Reporting Systems**  
+Allure • Pytest HTML • Slack integration  
+
+---
+
+# 📊 Key Achievements
+
+✔ Designed modular automation framework architecture  
+✔ Built internal full-stack QA monitoring platform  
+✔ Automated daily regression testing for HostingKR  
+✔ Implemented backend data verification workflows  
+✔ Delivered stable releases for PoPs and HostingKR platforms  
+
+---
+
+# 👩‍💻 Author
+
+**Sneha Agarwal**  
+QA Engineer — Megazone Cloud (PoPs Team)
+
+📍 Seoul, South Korea  
 📧 sneha.agarwalmh@gmail.com  
-📍 Seoul, South Korea
+
+LinkedIn  
+https://www.linkedin.com/in/sneha-agarwal-ba02241a9/
+
+GitHub  
+https://github.com/SnehaAgarwalMH
