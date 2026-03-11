@@ -1,7 +1,10 @@
 # ☁️ Megazone QA Portfolio
 
 Summary of professional **QA engineering, backend automation, and framework development** projects at **Megazone Cloud (2024 – Present)**.  
-All source code is private; this README highlights technical scope and system design contributions.
+
+⚠️ Source code is private due to company confidentiality.
+This repository documents architecture, tools, and engineering contributions.
+This README highlights technical scope and system design contributions.
 
 ---
 
