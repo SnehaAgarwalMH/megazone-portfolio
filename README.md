@@ -1,8 +1,8 @@
-# ☁️ Megazone QA Engineering Portfolio
+# ☁️ Megazone Software Engineering Portfolio
 
-Engineering portfolio documenting **automation frameworks, backend QA systems, and platform testing architecture** developed at **Megazone Cloud (2024 – Present)**.
+Engineering portfolio documenting **backend systems, internal engineering platforms, automation frameworks, API integration, and system validation architecture** developed at **Megazone Cloud (2024 – Present)**.
 
-⚠️ Source code is private due to company confidentiality and internal platform policies.  
+⚠️ Source code is private due to company confidentiality and internal policies.
 This repository documents **architecture, tools, and engineering contributions** without exposing proprietary implementation.
 
 ---
